@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/G-Man.jpg);
+    background-position: top;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 15px;
+    cursor: none;
+}
+
+span{
+    color: rgb(223, 10, 10);
+}
+
+nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 35px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:rgb(223, 10, 10);
+    transition: 1s;
+}
+
+.buton{
+    background-color: rgb(223, 10, 10);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.buton:hover{
+    transform: scale(1.2);
+}
+
+.slm{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-55%);
+}
+
+h1{
+    color: white;
+    font-size: 75px;
+    margin: 20px 0px 20px;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+h4{
+    color: white;
+    font-size: 16px;
+    letter-spacing: 10px;
+}
+
+.slm-frm form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.slm-frm form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid rgb(223, 10, 10);
+    outline: none;
+    border-radius: 30px;
+}
+
+.slm-frm form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(223, 10, 10);
+    box-shadow: 3px 3px 3px rgb(29, 25, 25), 3px 3px 3px rgb(228, 119, 119);
+    top: 6px;
+    right: 6px;
+}
+
+.incibölüm{
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+}
+
+.incibölüm img{
+    height: auto;
+    width: 430px;
+}
+
+.incibölümiçerik{
+    width: 550px;
+}
+
+.incibölümdivi{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+
+
+.incibölümiçerik h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.incibölümiçerik h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 45px;
+    text-transform: capitalize;
+}
+
+.incibölümiçerik p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18 px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: rgb(223, 10, 10);
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 1sn;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid  rgb(223, 10, 10);
+    cursor: pointer;
+}
+
+.servis{
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.başlık h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.kutu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.kart{
+    height: 600px;
+    width: 335px;
+    padding: 20px 35px;
+    background:white;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.kart h5{
+    color: black;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.kartiçidiv p{
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.kart .pread{
+    background-color: rgb(223, 10, 10);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.kart .pread:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+footer div a img{
+    width: 45px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: rgb(113, 113, 113);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+footer p:nth-child(3){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.footer p:hover{
+    cursor: none;
+}
+
+.sosyalmedya{
+    display: flex;
+}
+
+.sosyalmedya a{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 22px 10px;
+}
+
+.sosyalmedya a:hover{
+    transform: scale(1.3);
+    transition: .5s;
+}
+
+.slm h1:hover{
+    cursor: none;
+}
+
+
+/* skill bars */
+.container {
+    width: 50%; 
+    height: 35px;
+    background-color: #ddd; 
+    border: .5px solid rgb(225, 10, 10);
+    border-radius: 30px;
+    
+}
+  
+.skills {
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+}
+  
+.skillsMnp{width: 90%; height: 35px; border-radius: 30px; background-color: rgb(225, 10, 10);} 
+.skillsZmkr {width: 85%; height: 35px; border-radius: 30px; background-color: rgb(225, 10, 10);} 
+.skillsIsın {width: 95%; height: 35px; border-radius: 30px; background-color: rgb(225, 10, 10);}
+.skillsTkp {width: 100%; height: 35px; border-radius: 30px; background-color: rgb(225, 10, 10);} 
+.skillsVorE {width: 10%; height: 35px; border-radius: 30px; background-color: rgb(225, 10, 10);} 
+
+
+.SkillConteiner{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.SkillConteiner h2{
+    align-self: center;
+    margin-top: 10px;
+}
+
+.SkillConteiner h2:hover{
+    cursor: none;
+}
+
+/* skill bars */
